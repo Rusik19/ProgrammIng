@@ -13,6 +13,11 @@ CKO = sample.std()
 UCLX = M + 3*CKO
 LCLX = M - 3*CKO
 
+print(M)
+print(CKO)
+print(UCLX)
+print(LCLX)
+
 gist = sns.histplot(sample,kde=True, linewidth=0, color='b')
 plt.title("Гистограмма")
 plt.xlabel("Значения")
